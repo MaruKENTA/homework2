@@ -1,0 +1,42 @@
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    border-right:1.5px solid #FFF
+}
+
+a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: lightseagreen;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1:after {
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    top: 15px;
+    left: 5px;
+    width: 100%;
+    border-bottom: 1px solid lightslategray;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+#container {
+    margin-top: 50px;
+}
