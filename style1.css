@@ -1,0 +1,27 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: lightseagreen;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1:after {
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    top: 15px;
+    left: 5px;
+    width: 100%;
+    border-bottom: 1px solid lightslategray;
+}
+
+.container {
+    margin-top: 25px;
+}
+
+img {
+    height:300px; 
+    width:300px;
+}
